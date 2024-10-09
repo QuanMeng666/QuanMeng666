@@ -1,5 +1,24 @@
 # Vue 3 + Vite
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+<h3 class="shine">还在开发中~~~</h3>
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+<style scoped>
+.shine {
+  width: 100%;
+  font-size: 20px;
+  //text-align: center;
+  background: linear-gradient(90deg, #0f0, #00f, #f00, #0f0, #00f, #f00, #0f0);
+  background-size: 200%;
+  -webkit-background-clip: text; /* 背景被裁剪到文字 */
+  color: transparent; /* 设置文字的填充颜色为透明 */
+  animation: shine 5s linear infinite; /* 设置动画 */
+}
+@keyframes shine { /* 创建动画 */
+  0% {
+    background-position: 0 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+</style>
